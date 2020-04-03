@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzehui.github.io</id>
     <title>Gridea</title>
-    <updated>2020-04-03T13:33:43.601Z</updated>
+    <updated>2020-04-03T13:38:20.405Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzehui.github.io"/>
     <link rel="self" href="https://sunzehui.github.io/atom.xml"/>
@@ -23,10 +23,8 @@
 </blockquote>
 <p>​</p>
 <p>​	做这种题就套公式，套什么公式呢，点弹性？不对，销售量函数没给，求不了价格的导数。弧弹性！就你了，Q<sub>1</sub>,Q<sub>2</sub> 都是谁啊，首先就在这里掉坑去了，看看我画的图吧！</p>
-<blockquote>
-<figure data-type="image" tabindex="1"><img src="C:%5CUsers%5CAdministrator%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200403210326756.png" alt="image-20200403210326756" loading="lazy"></figure>
-</blockquote>
-<p>​	花了半个小时，硬是觉得怎么都不对，勉勉强强，不知道对不对的瞎画了出来，现在就是求P2。</p>
+<p><img src="https://sunzehui.github.io/post-images/1585920985821.png" alt="" loading="lazy"><br>
+​	花了半个小时，硬是觉得怎么都不对，勉勉强强，不知道对不对的瞎画了出来，现在就是求P2。</p>
 <p>刚开始分不清Q1，Q2，老师说是最后的值就是Q1，前面是10000件，最后是8000双，要求后面的P2，后面的Q1就带呗，前面的Q2，带就完事了。</p>
 <blockquote>
 <p>公式是：</p>
@@ -41,7 +39,7 @@
 <blockquote>
 <p>所有算法都一一展示出来，没有多余没有省略，比答案都还全！</p>
 </blockquote>
-<figure data-type="image" tabindex="2"><img src="https://sunzehui.github.io/post-images/1585920689971.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://sunzehui.github.io/post-images/1585920689971.png" alt="" loading="lazy"></figure>
 <blockquote>
 <p>每一步都非常具体，甚至用了分配律都写了出来！</p>
 </blockquote>
