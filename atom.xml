@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sunzehui.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-07T22:38:20.438Z</updated>
+    <updated>2020-07-07T22:44:53.846Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sunzehui.github.io"/>
     <link rel="self" href="https://sunzehui.github.io/atom.xml"/>
@@ -17,15 +17,32 @@
         </link>
         <updated>2020-07-07T21:39:41.000Z</updated>
         <content type="html"><![CDATA[<pre><code>最近一直没有学习，一时兴起做了一个在线刷题网站，我承认我很菜，一天做一个页面都很累。。
-![第一代代码截图](https://sunzehui.github.io/post-images/1594161203280.png)
+![](https://sunzehui.github.io/post-images/1594161203280.png)
+第一代代码截图
 一开始我用Vue的v-for遍历数组，数组里的元素自动渲染到页面，方便，快捷！请求到了自动遍历，这才叫响应式开发，可上线以后，在手机上就特别卡，翻页翻多了就连动画都没有了，直接文字替换，看着特别不舒服，还有就是点击按钮也会很卡，消息框很久才出来，因为当时我写的点击按钮就请求页面，考虑到用户体验，开始先请求5页，然后点击按钮就继续请求第六页，当用户到达第五页的时候，我就开始请求第10页了，这么一看好像是很聪明的方法，可为何他就这么卡，难不成是我设备问题，我立即上qq发布给大家，大家也说特别卡，当然也有说不卡的，估计是配置比我高不少，为了照顾广大用户体验，我决定继续优化一下！
 于是，我在百度，CSDN，博客园搜索有关vue性能优化的帖子，什么路由懒加载，组件复用，v-for带上key，我都加进去了，还是卡，万般无奈之下，我决定重新换个思路。我先是看了看别人写的，别人一开始就把所有题目请求下来，一个一个插入dom中，我就纳闷了，他不卡吗，为什么我的请求五个就卡，可能是它的界面很简单，也就label+checkbox，只能靠用户点击下一题，
-  ![回答错误显示提示框](https://sunzehui.github.io/post-images/1594161340205.png)
+
+  
 而我用的是button，还带特效的，翻转也有动画，那我试试一次请求十个，继续我又想到类似“百词斩”刷完15个单词继续让你选择“今天的单词刷完了，是否继续”我也搞一个！然后在第十个后面加了一个显示回答正确率的界面，然后还有继续答题按钮，还有查看错题。目前正在写，有待完善。
+
+&lt;center&gt;
+&lt;img style=&quot;border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot; 
+src=&quot;C:/Users/Administrator/Documents/Gridea/post-images/1594161340205.png&quot; width = &quot;30%&quot; alt=&quot;&quot;/&gt;
+&lt;img style=&quot;border-radius: 0.3125em;
+box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);&quot; 
+src=&quot;C:/Users/Administrator/Documents/Gridea/post-images/1594161373364.png&quot; width = &quot;30%&quot; alt=&quot;&quot;/&gt;
+&lt;br&gt;
+&lt;div style=&quot;color:orange; border-bottom: 1px solid #d9d9d9;
+display: inline-block;
+color: #999;
+padding: 2px;&quot;&gt;
+  回答错误显示提示框和目前正在写的界面
+&lt;/div&gt;
 </code></pre>
-<p><img src="https://sunzehui.github.io/post-images/1594161373364.png" alt="目前正在写的界面" loading="lazy"><br>
-经过这次优化，至少我在虚拟机滑动是很流畅了，昨天在我的手机上试了一下，流畅！配合我新换的material消息框，美爆了！不吹了，界面还是很简陋，考虑做那种和百词斩一样的“刷单词算法”，现在还没有头绪，用户也不能创建账户，接下来完善的时间还很长，好了我手指头疼了，下了下了。。<br>
-忘了附上网址：lowbi.xiaoxiaoge.cn</p>
+</center>
+<pre><code>经过这次优化，至少我在虚拟机滑动是很流畅了，昨天在我的手机上试了一下，流畅！配合我新换的material消息框，美爆了！不吹了，界面还是很简陋，考虑做那种和百词斩一样的“刷单词算法”，现在还没有头绪，用户也不能创建账户，接下来完善的时间还很长，好了我手指头疼了，下了下了。。
+忘了附上网址：lowbi.xiaoxiaoge.cn</code></pre>
 ]]></content>
     </entry>
     <entry>
